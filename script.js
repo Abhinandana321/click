@@ -11,3 +11,8 @@ button.addEventListener("mouseover", function () {
     }
 
 })
+setTimeout(function(){
+    button.style.display="none"
+    predict.innerText="sorry..you dont have a future!"
+
+},10000)
