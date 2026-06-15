@@ -1,5 +1,6 @@
 let button = document.querySelector("button")
-let moved=0
+let prediction=document.querySelector(".prediction")
+let moved=false
 button.addEventListener("mouseover", function () {
 
     if (!moved) {
@@ -13,6 +14,6 @@ button.addEventListener("mouseover", function () {
 })
 setTimeout(function(){
     button.style.display="none"
-    predict.innerText="sorry..you dont have a future!"
+    prediction.innerText="sorry..you dont have a future!"
 
 },10000)
